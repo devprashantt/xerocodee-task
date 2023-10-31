@@ -5,7 +5,48 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    color: #242331;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    text-align: center;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+
+    span {
+        color: #0c5bc6;
+        font-size: 2.75rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+    }
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
