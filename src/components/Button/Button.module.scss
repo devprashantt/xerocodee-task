@@ -28,16 +28,22 @@
 }
 
 .filled {
+    height: 100%;
     color: #fff;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-style: normal;
-    font-weight: 800;
-    line-height: 180%;
+    font-weight: 500;
+    line-height: 200%;
 
     border: none;
     outline: none;
 
     background-color: #0c5bc6;
-    border-radius: 0.4rem;
+    border-radius: 1rem;
+
+    &:hover {
+        color: #fff;
+        background-color: #0f66e1;
+    }
 }
