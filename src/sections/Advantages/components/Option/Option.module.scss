@@ -1,0 +1,66 @@
+.option {
+    display: flex;
+    width: 7.5rem;
+    height: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+
+    color: #494369;
+    text-align: center;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    border: 2px solid #ebebf0;
+    border-radius: 0.8rem;
+
+    // SET ANIMATION
+    animation: slide 0.5s ease-in-out;
+
+    @keyframes slide {
+        // SIMPLE ANIMATION
+        0% {
+            // SIMPLE NO MOV
+            transform: translateX(0);
+        }
+        100% {
+            // SIMPLE MOV
+            transform: translateX(0);
+        }
+    }
+}
+
+.active {
+    display: flex;
+    width: 7.5rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #494369;
+    text-align: center;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+    border: none;
+    border-bottom: 4px solid #0c5bc6 !important;
+    border-radius: 0 0 0.2rem 0.2rem;
+
+    // SET ANIMATION
+    animation: slide 0.5s ease-in-out;
+
+    @keyframes slide {
+        // SIMPLE ANIMATION
+        0% {
+            // SIMPLE NO MOV
+            transform: translateX(0);
+        }
+        100% {
+            // SIMPLE MOV
+            transform: translateX(0);
+        }
+    }
+}

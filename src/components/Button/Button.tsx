@@ -3,18 +3,21 @@ import styles from "./Button.module.scss"
 // INTERFACE
 interface ButtonProps {
     text: string
+    buttonType: "primary" | "secondary"
     onClick: () => void
 }
 
 const Button = ({
     text,
-    onClick
+    onClick,
+    buttonType
 }: ButtonProps) => {
     return (
-        <button className={styles.btn} onClick={onClick}>
-            {
-                text
-            }
+        <button
+            className={`${styles.btn} ${styles[buttonType]}`}
+            onClick={onClick}
+        >
+            {text}
         </button>
     )
 }

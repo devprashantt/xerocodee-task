@@ -1,0 +1,41 @@
+.advantages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 4rem;
+    }
+
+    .body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+
+        // HIDE SCROLL OF OPTION ROW
+        .option_row::-webkit-scrollbar {
+            display: none;
+        }
+
+        .option_row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1rem;
+            overflow-x: scroll;
+        }
+    }
+}
