@@ -60,3 +60,40 @@
     gap: 2rem;
     flex-direction: row-reverse;
 }
+
+@media screen and (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        gap: 1rem;
+
+        .image {
+            height: 15rem;
+            min-width: 15rem;
+            width: 100%;
+        }
+
+        .content {
+            max-width: 100%;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+
+            .title {
+                font-size: 1rem;
+                line-height: 120%;
+                text-align: center;
+            }
+
+            .desc {
+                font-size: 0.875rem;
+                line-height: 120%;
+                text-align: center;
+            }
+        }
+    }
+
+    .reverse {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

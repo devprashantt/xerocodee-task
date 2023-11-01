@@ -48,3 +48,29 @@
     justify-content: space-around;
     align-items: flex-start;
 }
+
+@media screen and (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+
+        .image {
+            width: 100%;
+            height: 20rem;
+            min-width: 20rem;
+        }
+
+        .content {
+            max-width: 100%;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .reverse {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+}

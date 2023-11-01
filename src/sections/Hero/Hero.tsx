@@ -9,6 +9,7 @@ const Hero = () => {
             <p>no more, no less. Deploy from our single pane of glass, manage them with ease and scale up as fast as your workload grows.</p>
             <Button
                 text="Get started now"
+                buttonType="primary"
                 onClick={() => {
                     console.log("Get started now")
                 }}

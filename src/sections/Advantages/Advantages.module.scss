@@ -71,3 +71,22 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .advantages {
+        .body {
+            .option_row {
+                gap: 0.5rem;
+            }
+        }
+
+        .compare {
+            padding: 4rem;
+            .with,
+            .without {
+                height: 20rem;
+                width: 20rem;
+            }
+        }
+    }
+}
