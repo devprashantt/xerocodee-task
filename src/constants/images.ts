@@ -25,6 +25,8 @@ import neural_network from "../assets/icons/neural-network.svg";
 import plane from "../assets/icons/plane.svg";
 import rocket from "../assets/icons/rocket.svg";
 import profile from "../assets/icons/profile.svg";
+import arrow_left from "../assets/icons/arrow-left.svg";
+import arrow_right from "../assets/icons/arrow-right.svg";
 
 export default {
   ad1,
@@ -49,5 +51,7 @@ export default {
   neural_network,
   plane,
   rocket,
-  profile
+  profile,
+  arrow_left,
+  arrow_right,
 };
