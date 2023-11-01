@@ -1,7 +1,6 @@
 import { Landing } from "./pages"
 
 function App() {
-
   return (
     <div>
       <Landing />

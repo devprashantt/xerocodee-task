@@ -24,6 +24,7 @@ import infrastructure from "../assets/icons/infrastructure.svg";
 import neural_network from "../assets/icons/neural-network.svg";
 import plane from "../assets/icons/plane.svg";
 import rocket from "../assets/icons/rocket.svg";
+import profile from "../assets/icons/profile.svg";
 
 export default {
   ad1,
@@ -48,4 +49,5 @@ export default {
   neural_network,
   plane,
   rocket,
+  profile
 };

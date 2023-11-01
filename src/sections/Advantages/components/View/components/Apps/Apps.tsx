@@ -7,7 +7,7 @@ interface AppsProps {
 const Apps = ({ }: AppsProps) => {
     return (
         <div className={styles.apps}>
-            <img src={images.dashboard} alt="" />
+            <img src={images.dashboard} alt="dashboard" />
         </div>
     )
 }

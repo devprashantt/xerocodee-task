@@ -1,0 +1,23 @@
+.manage {
+    margin: 4%;
+    border-radius: 2.1875rem;
+    background: #0c5bc6;
+    padding: 4rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6rem;
+
+    .title {
+        color: #fff;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+}

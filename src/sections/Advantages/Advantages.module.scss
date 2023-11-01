@@ -38,4 +38,36 @@
             overflow-x: scroll;
         }
     }
+
+    .compare {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: 4rem;
+        position: relative;
+
+        .person {
+            position: absolute;
+            top: 50%;
+            left: 54%;
+        }
+
+        .with,
+        .without {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 2rem;
+            height: 30rem;
+            width: 26rem;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
 }
