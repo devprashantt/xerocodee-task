@@ -1,9 +1,9 @@
+import styles from './Testimonials.module.scss'
 
-
-const Stories = () => {
+const Testimonials = () => {
     return (
-        <div>Stories</div>
+        <div className={styles.testimonials}>Testimonials</div>
     )
 }
 
-export default Stories
+export default Testimonials

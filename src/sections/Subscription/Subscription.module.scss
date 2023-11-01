@@ -1,0 +1,14 @@
+.subs {
+    border-radius: 3.75rem;
+    background: #c6deff;
+    backdrop-filter: blur(20px);
+    padding: 8rem;
+    margin: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .subs {
+        padding: 2rem;
+        gap: 2rem;
+    }
+}

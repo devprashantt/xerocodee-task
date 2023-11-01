@@ -3,7 +3,7 @@ import styles from "./Button.module.scss"
 // INTERFACE
 interface ButtonProps {
     text: string
-    buttonType: "primary" | "secondary"
+    buttonType: "primary" | "secondary" | "filled"
     onClick: () => void
 }
 

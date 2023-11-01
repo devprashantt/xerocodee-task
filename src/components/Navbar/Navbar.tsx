@@ -27,6 +27,7 @@ const Navbar = () => {
             </div>
             <div className={styles.btn}>
                 <Button
+                    buttonType="primary"
                     text="Sign Up"
                     onClick={() => {
                         console.log("Sign Up")
