@@ -1,0 +1,41 @@
+.benefits {
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
+    .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        width: 100%;
+
+        .infra,
+        .deploy,
+        .costs {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 2rem;
+
+            .options {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1.2rem;
+            }
+        }
+
+        .deploy,
+        .costs {
+            padding: 0 8rem;
+        }
+    }
+}
